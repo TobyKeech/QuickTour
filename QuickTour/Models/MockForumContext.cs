@@ -1,9 +1,26 @@
 ﻿namespace QuickTour.Models
 {
-	public class MockForumContext
+	public class MockForumContext:IForumContext
 	{
+
+		private readonly ITransient _tran;
+		private readonly IScoped _scoped;
+		private readonly ISingleton _single;
+
+		public MockForumContext(ITransient tran, IScoped scoped, ISingleton single)
+		{
+			_tran = tran;
+			_scoped = scoped;
+			_single = single;
+		}
+
+
 		public IEnumerable<Forum> GetForums ()
 		{
+			_tran.WriteGuidToConsole();
+			_scoped.WriteGuidToConsole();
+			_single.WriteGuidToConsole();
+
 			List<Thread>topic1Threads = new List<Thread>()
 			{
 				new Thread()

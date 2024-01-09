@@ -223,3 +223,4 @@ C:\Users\User\Desktop\QA_Code\ASP.NET\QuickTour\QuickTour\bin\Debug\net6.0\runti
 C:\Users\User\Desktop\QA_Code\ASP.NET\QuickTour\QuickTour\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
 C:\Users\User\Desktop\QA_Code\ASP.NET\QuickTour\QuickTour\obj\Debug\net6.0\QuickTour.csproj.AssemblyReference.cache
 C:\Users\User\Desktop\QA_Code\ASP.NET\QuickTour\QuickTour\obj\Debug\net6.0\QuickTour.csproj.CopyComplete
+C:\Users\User\Desktop\QA_Code\ASP.NET\QuickTour\QuickTour\obj\Debug\net6.0\QuickTour.sourcelink.json
